@@ -1,0 +1,192 @@
+nav{
+    background-color: white;
+    line-height: 53px;
+    .nav-wrapper{
+        // clases nav-wrapper
+        .icon-ActBrand_Logotipo{
+            color: $actbrand;
+            padding-top: 17px;
+            padding-left: 20px ;
+            @media (min-width: 320px) and (max-width: 992px) {
+                padding-left: 0;
+            }
+        }
+        .icon-menu{
+            color: $actbrand;
+            font-size: 30px;
+            font-weight: 600;
+        }
+        ul{
+            font-weight: 500;
+            text-transform: uppercase;
+            li{
+                height: 64px;
+            }
+            li .nav-width{
+                width: 128px;
+                max-width: 100%;
+                text-align: center;
+            }
+            li .home{
+                color: $actbrand;
+                font-size: 20px;
+                border-top: 11px solid $actbrand;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover{
+                    background-color: $actbrand;
+                    color: white;
+                }
+            }
+            li .active-actbrand{
+                background-color: $actbrand;
+                color: white;
+            }
+            li .women{
+                color: $actbrand-women;
+                font-size: 13px;
+                border-top: 11px solid $actbrand-women;
+                &:hover{
+                    background-color: $actbrand-women;
+                    color: white;
+                }
+            }
+            li .active-women{
+                background-color: $actbrand-women;
+                color: white;
+            }
+            li .men{
+                color: $actbrand-men;
+                font-size: 13px;
+                border-top: 11px solid $actbrand-men;
+                &:hover{
+                    background-color: $actbrand-men;
+                    color: white;
+                }
+            }
+            li .active-men{
+                background-color: $actbrand-men;
+                color: white;
+            }
+            li .senior{
+                color: $actbrand-senior;
+                font-size: 13px;
+                border-top: 11px solid $actbrand-senior;
+                &:hover{
+                    background-color: $actbrand-senior;
+                    color: white;
+                }
+            }
+            li .active-senior{
+                background-color: $actbrand-senior;
+                color: white;
+            }
+            li .multivitamins{
+                color: $actbrand-multi;
+                font-size: 13px;
+                border-top: 11px solid $actbrand-multi;
+                &:hover{
+                    background-color: $actbrand-multi;
+                    color: white;
+                }
+            }
+            li .active-multivitamins{
+                background-color: $actbrand-multi;
+                color: white;
+            }
+            li .complex{
+                color: $actbrand-complex;
+                font-size: 13px;
+                border-top: 11px solid $actbrand-complex;
+                &:hover{
+                    background-color: $actbrand-complex;
+                    color: white;
+                }
+            }
+            li .active-complex{
+                background-color: $actbrand-complex;
+                color: white;
+            }
+        }
+    }
+}
+
+// mobile
+.sidenav{
+    font-weight: 500;
+    width: 250px;
+    li .home{
+        color: $actbrand;
+        border-left: 11px solid $actbrand;
+        &:hover{
+            background-color: $actbrand;
+            color: white;
+        }
+    }
+    li .active-actbrand{
+        background-color: $actbrand;
+        color: white;
+    }
+    li .women{
+        color: $actbrand-women;
+        border-left: 11px solid $actbrand-women;
+        &:hover{
+            background-color: $actbrand-women;
+            color: white;
+        }
+    }
+    li .active-women{
+        background-color: $actbrand-women;
+        color: white;
+    }
+    li .men{
+        color: $actbrand-men;
+        border-left: 11px solid $actbrand-men;
+        &:hover{
+            background-color: $actbrand-men;
+            color: white;
+        }
+    }
+    li .active-men{
+        background-color: $actbrand-men;
+        color: white;
+    }
+    li .senior{
+        color: $actbrand-senior;
+        border-left: 11px solid $actbrand-senior;
+        &:hover{
+            background-color: $actbrand-senior;
+            color: white;
+        }
+    }
+    li .active-senior{
+        background-color: $actbrand-senior;
+        color: white;
+    }
+    li .multivitamins{
+        color: $actbrand-multi;
+        border-left: 11px solid $actbrand-multi;
+        &:hover{
+            background-color: $actbrand-multi;
+            color: white;
+        }
+    }
+    li .active-multivitamins{
+        background-color: $actbrand-multi;
+        color: white;
+    }
+    li .complex{
+        color: $actbrand-complex;
+        border-left: 11px solid $actbrand-complex;
+        &:hover{
+            background-color: $actbrand-complex;
+            color: white;
+        }
+    }
+    li .active-complex{
+        background-color: $actbrand-complex;
+        color: white;
+    }
+}

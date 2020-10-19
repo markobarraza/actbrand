@@ -1,0 +1,366 @@
+.container-eligetu_actbrand{
+    background-color: #F3F5F8;
+    margin-top: 40px;
+
+    .container-inner{
+        width: 90%;
+        margin: 0 auto;
+        padding: 30px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (min-width: 320px) and (max-width: 992px){
+            display: block;
+        }
+        .container_info{
+            width: 100%;
+            .title{
+                color: $actbrand;
+                font-size: 30px;
+                text-transform: uppercase;
+                font-weight: 500;
+                position: relative;
+                margin: 10px 0;
+                .register{
+                    position: absolute;
+                    top: -4px;
+                    font-size: 12px;
+                }
+            }  
+            .line{
+                width: 80px;
+                height: 10px;
+                background-color: $actbrand-multi;
+                margin: 10px 0;
+            }    
+            .text{
+                font-size: 16px;
+                max-width: 400px;
+                color: $actbrand;
+                font-weight: normal;
+            }
+            .container-btn{
+                width: 100%;
+                text-align: center;
+                margin: 100px 0;
+                height: 200px;
+                @media (min-width: 320px) and (max-width: 992px){
+                    margin: 50px 0;
+                }
+                .container-resultado{
+                    @media (min-width: 320px) and (max-width: 992px){
+                        display: flex;
+                        flex-direction: column-reverse;
+                    }
+                }
+                .container-left{
+                    width: 90%;
+                    @media (min-width: 320px) and (max-width: 992px){
+                        width: 100%;
+                    }
+                    .title{
+                        font-size: 16px;
+                        font-weight: 800;
+                        color: $actbrand;
+                    }
+                    .title-resultado{
+                        color: #1F931A;
+                        font-size: 30px;
+                        text-transform: uppercase;
+                        font-weight: 500;
+                        display: flex;
+                        justify-content: center;
+                        @media (min-width: 320px) and (max-width: 992px){
+                            margin: 0;
+                        }
+                        .arrow-btn{
+                            margin-left: 10px;
+                            font-weight: 700;
+                        }
+                    }
+                    .btn-choices{
+                        color: white;
+                        font-size: 17px;
+                        text-transform: uppercase;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        margin: 20px 0;
+                        @media (min-width: 320px) and (max-width: 992px){
+                            
+                        }
+                        .btn-elige {
+                            background-color: #E89067;
+                            border: solid 4px $actbrand-multi;
+                            border-radius: 50px;
+                            -webkit-border-radius: 50px;
+                            -moz-border-radius: 50px;
+                            -ms-border-radius: 50px;
+                            -o-border-radius: 50px;
+                            display: inline-block;
+                            padding: 15px 40px;
+                            margin: 5px 0;
+                            
+                            cursor: pointer;
+                            &:hover{
+                                background-color: #E17D55;
+                            }
+                            @media (min-width: 320px) and (max-width: 992px){
+                                padding: 15px 0;
+                                width: 80%;
+                                margin: 10px 0;
+                            }
+                            .separador {
+                                font-size: 20px;
+                                font-weight: 500;
+                                
+                                // color: $actbrand-multi;
+                            }
+                            .deparador2{
+                                margin: 0 5px;
+                                font-size: 20px;
+                                font-weight: lighter;
+                                color: rgb(231, 231, 231);
+                            }
+                        }
+                        .btn-desktop{
+                            width: 90%;
+                        }
+                        .btn-again{
+                            font-size: 14px;
+                            background-color: $actbrand;
+                            border-radius: 50px;
+                            -webkit-border-radius: 50px;
+                            -moz-border-radius: 50px;
+                            -ms-border-radius: 50px;
+                            -o-border-radius: 50px;
+                            display: flex;
+                            align-items: center;
+                            padding: 15px 30px;
+                            margin: 5px 0;
+                            cursor: pointer;
+                            &:hover{
+                                background-color: #163262;
+                            }
+                            @media (min-width: 320px) and (max-width: 992px){
+                                padding: 15px 30px;
+                                margin: 10px 0;
+                            }
+                            .icon-replay{
+                                font-size: 25px;
+                                margin-left: 10px;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // RESULTADO
+        .container_result{
+            width: 100%;
+            background-color: #D9DEE7;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+            padding: 50px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            @media (min-width: 320px) and (max-width: 992px){
+                position: relative;
+                text-align: center;
+                display: block;
+                margin-top: 200px;
+                padding: 10px 20px;
+                height: 100%;
+
+            }
+            .img-simulator{
+                @media (min-width: 320px) and (max-width: 992px){
+                    position: relative;
+                    margin: 0 auto;    
+                    top: -100px;
+                }
+            }
+            .container-simulator_text{
+                width: 100%;
+                padding: 0 10px;
+                @media (min-width: 320px) and (max-width: 992px){
+                    position: relative;
+                    top: -70px;
+                }
+                .text-simulator1{
+                    background-color: #C2CAD6;
+                    height: 30px;
+                    width: 70%;
+                    margin-bottom: 20px;
+                    border-radius: 20px;
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    -ms-border-radius: 20px;
+                    -o-border-radius: 20px;
+                }
+                .text-simulator2{
+                    background-color: #C2CAD6;
+                    height: 90px;
+                    min-width: 90%;
+                    margin-bottom: 20px;
+                    border-radius: 20px;
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    -ms-border-radius: 20px;
+                    -o-border-radius: 20px;
+                }
+                .text-simulator3{
+                    background-color: #C2CAD6;
+                    height: 30px;
+                    width: 30%;
+                    margin-bottom: 20px;
+                    border-radius: 20px;
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    -ms-border-radius: 20px;
+                    -o-border-radius: 20px;
+                }
+                .text-simulator4{
+                    background-color: #C2CAD6;
+                    height: 57px;
+                    width: 80%;
+                    margin-bottom: 20px;
+                    border-radius: 20px;
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    -ms-border-radius: 20px;
+                    -o-border-radius: 20px;
+                }
+            }
+        }
+        // for women
+        .container-forwomen{
+            width: 100%;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+            padding: 50px 20px 50px 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            @media (min-width: 320px) and (max-width: 992px){
+                position: relative;
+                text-align: left;
+                display: block;
+                margin-top: 70px;
+                padding: 10px 20px;
+                height: 100%;
+            }
+            .img-ficha{
+                width: 500px;
+                @media (min-width: 320px) and (max-width: 992px){
+                    position: relative;
+                    width: auto;
+                    margin: 0 auto;    
+                    top: -100px;
+                }
+            }
+            .container-simulator_text{
+                @media (min-width: 320px) and (max-width: 992px){
+                    position: relative;
+                    top: -90px;
+                }
+                .title{
+                    font-size: 25px; 
+                    margin: 10px 0;
+                    .register{
+                        position: relative;
+                        font-size: 12px;
+                        top: -11px;
+                        left: -5px;
+                    }
+                }
+                .text{
+                    font-size: 16px;
+                    color: #5A5A5A;
+                    margin: 0;
+                    line-height: 20px;
+                }
+                // presentacion
+                .presentacion-uso{ 
+                    @media (min-width: 320px) and (max-width: 600px){
+                        margin: 0;
+                    }
+                    .presentacion{   
+                        width: 250px;
+                        display: block;
+                        margin: 15px 0 0 0;
+                        border-radius: 5px;
+                        -webkit-border-radius: 5px;
+                        -moz-border-radius: 5px;
+                        -ms-border-radius: 5px;
+                        -o-border-radius: 5px;
+                        .title{
+                            font-size: 16px;
+                            font-weight: 500;
+                            margin: 0 0 3px 0;
+                        }
+                        p{
+                            font-size: 14px;
+                            margin: 0;
+                            font-weight: 200;
+                            line-height: 18px;
+                        }
+                    }
+                }
+                // beneficios
+                .beneficios{
+                    .title{
+                        font-size: 16px;
+                        color: #272727;
+                        font-weight: 600;
+                        margin: 20px 0 10px 0;
+    
+                    }
+                    .container-check{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        max-width: 470px;
+                        .icon-checkmark{
+                            font-size: 16px;
+                            color: #4B9D4F;
+                            font-weight: 1000;
+                            margin: 3px 10px 0 0;
+                        }
+                        p{
+                            font-size: 14px;
+                            color: $actbrand-text;
+                            font-weight: 200;
+                            line-height: 18px;
+                            margin: 0 0 10px 0;
+                            @media (min-width: 320px) and (max-width: 600px){
+                                font-size: 14px;
+                                line-height: inherit;
+                            }
+                        }
+                    }
+                } 
+                .btn-ficha{
+                    float: right;
+                    padding: 10px 20px;
+                    color: white;
+                    margin: 20px 0 0 0;
+                    border-radius:50px ;
+                    -webkit-border-radius:50px ;
+                    -moz-border-radius:50px ;
+                    -ms-border-radius:50px ;
+                    -o-border-radius:50px ;
+                }
+            }
+        }
+    }
+}

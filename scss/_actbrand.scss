@@ -1,0 +1,273 @@
+.container_actbrand{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    @media (min-width: 320px) and (max-width: 992px){
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        margin-top: 40px;
+    }
+    .container-cards{
+        width: 70%;
+        @media (min-width: 320px) and (max-width: 992px){
+            width: 100%;
+        }
+        .swiper-cards{
+            padding: 60px 0;
+            @media (min-width: 320px) and (max-width: 992px){
+                padding: 70px 0;
+            }
+            .actbrand_card{
+                height: 480px;
+                margin: 0 auto;
+                position: relative;
+                @media (min-width: 320px) and (max-width: 992px){
+                    height: auto;
+                    max-width: 80%;
+                    justify-content: flex-start;
+                    margin-left: 60px;
+                }
+                .img-actbrand{
+                    position: absolute;
+                    bottom: -30px;
+                    left: -13px;
+                    z-index: 40;
+                    @media (min-width: 320px) and (max-width: 992px){
+                        left: -74px;
+                        bottom: -66px;
+                    }
+                }
+                .container-inner_card{
+                    position: relative;
+                    height: 480px;
+                    width: 86%;
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -ms-border-radius: 10px;
+                    -o-border-radius: 10px;
+                    overflow: hidden;
+                    -webkit-box-shadow: 3px 2px 18px -4px rgba(0,0,0,0.46);
+                    -moz-box-shadow: 3px 2px 18px -4px rgba(0,0,0,0.46);
+                    box-shadow: 3px 2px 18px -4px rgba(0,0,0,0.46);
+                    @media (min-width: 320px) and (max-width: 992px){
+                        width: 80%;
+                        height: 320px;
+                    }
+                    
+                    // backgroung img cards
+                    .men-img{
+                        background-image: url(../img/men-card.jpg);
+                    }
+                    .senior-img{
+                        background-image: url(../img/senior-card.jpg);
+                    }
+                    .women-img{
+                        background-image: url(../img/women-card.jpg);
+                    }
+                    .multi-img{
+                        background-image: url(../img/multi-card.jpg);
+                    }
+                    .complex-img{
+                        background-image: url(../img/complex-card.jpg);
+                    }
+                    .container_img{
+                        height: 367px;
+                        position: relative;
+                        padding: 25px;
+                        background-size: cover;
+                        @media (min-width: 320px) and (max-width: 992px){
+                            height: 220px;
+                        }
+                        .actbrand_color-senior{
+                            height: 100%;
+                            width: 100%;
+                            position: absolute;
+                            background-color: #88898bc0;
+                            z-index: 20;
+                            top: 0;
+                            left: 0;
+                        }
+                        .actbrand_color-men{
+                            height: 100%;
+                            width: 100%;
+                            position: absolute;
+                            background-color: hsl(203, 100%, 37%,0.753);
+                            z-index: 20;
+                            top: 0;
+                            left: 0;
+                        }
+                        .actbrand_color-women{
+                            height: 100%;
+                            width: 100%;
+                            position: absolute;
+                            background-color: hsl(301, 52%, 34%,0.753);
+                            z-index: 20;
+                            top: 0;
+                            left: 0;
+                        }
+                        .actbrand_color-multi{
+                            height: 100%;
+                            width: 100%;
+                            position: absolute;
+                            background-color: hsl(19, 89%, 48%, 0.753);
+                            z-index: 20;
+                            top: 0;
+                            left: 0;
+                        }
+                        .actbrand_color-complex{
+                            height: 100%;
+                            width: 100%;
+                            position: absolute;
+                            background-color: hsl(226, 43%, 26%, 0.753);
+                            z-index: 20;
+                            top: 0;
+                            left: 0;
+                        }
+                        .title_card{
+                            position: absolute;
+                            z-index: 30;
+                            font-size: 20px;
+                            color: white;
+                            margin: 0;
+                        }
+                        .line_card{
+                            position: absolute;
+                            width: 71px;
+                            height: 4px;
+                            background-color: white;
+                            top: 53px;
+                            z-index: 30;
+                        }
+                        .img-card{
+                            position: absolute;
+                            top: 0;
+                            z-index: 10;
+                        }
+                    }
+                    .container_btn{
+                        position: absolute;
+                        width: 100%;
+                        height: 63px;
+                        background-color: white;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        @media (min-width: 320px) and (max-width: 992px){
+                            height: 45px;
+                        }
+                        // texto cards color
+                        .color-men{
+                            color: $actbrand-men;
+                        }
+                        .color-senior{
+                            color: $actbrand-senior;
+                        }
+                        .color-women{
+                            color: $actbrand-women;
+                        }
+                        .color-multi{
+                            color: $actbrand-multi;
+                        }
+                        .color-complex{
+                            color: $actbrand-complex;
+                        }
+                        .btn-vermas{
+                            font-size: 20px;
+                            text-align: right;
+                            margin: 0 10px 0 0;
+                            font-weight: 500;
+                            @media (min-width: 320px) and (max-width: 992px){
+                                display: none;
+                            }
+                        }
+                        .icon-arrow_forward_ios{
+                            font-size: 20px;
+                            margin-right: 20px;
+                            margin-top: 3px;
+                            font-weight: 800;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .container-titles{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (min-width: 320px) and (max-width: 992px){
+            width: 100%;
+        }
+        .container-inner_title{
+            padding-right: 20px;  
+            position: relative;  
+            text-align: right;
+            @media (min-width: 320px) and (max-width: 992px){
+                width: 90%;
+                margin: 0 auto;
+                padding-right: 0;
+                text-align: left;  
+            }
+            h2{
+                color: $actbrand-multi;
+                font-size: 35px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                margin: 5px 0 0 0;
+                @media (min-width: 320px) and (max-width: 992px){
+                    font-size: 25px;
+                }
+            }
+            .subtitle{
+                font-size: 16px;
+                color: $actbrand;
+                
+                margin: 0;
+            }
+            .container-arrows{
+                position: relative;
+                height: 50px;
+                .container-inner_arrow{
+                    position: absolute;
+                    right: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    top: 20px;
+                    @media (min-width: 320px) and (max-width: 992px){
+                        left: 0;
+                        right: inherit;
+                    }
+                    .icon-arrow_forward_ios, .icon-arrow_back_ios{
+                        font-size: 20px;
+                        margin-top: auto;
+                        background-color: $actbrand;
+                        color: white;
+                        width: inherit;
+                        height: inherit;
+                        cursor: pointer;
+                        &:hover{
+                            background-color: #163262;
+                        }
+                        
+                    }
+                    .icon-arrow_back_ios{
+                        position: relative;
+                        left: 0;
+                        margin-right: 5px;
+                        padding: 20px 20px 20px 23px;
+
+                    }
+                    .icon-arrow_forward_ios{
+                        position: relative;
+                        right: 0;
+                        padding: 20px 20px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.footer{
+    width: 100%;
+    height: 140px;
+    background-color: $actbrand;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 320px) and (max-width: 992px){
+        display: none;
+    }
+    .icon-ActBrand_Logotipo{
+        color: white;
+        font-size: 40px;
+    }
+}

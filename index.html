@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ActBrand</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Swiper Slider -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- Materialize | Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Google Font | Ubuntu -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet"> 
+    <!-- iconmoon -->
+    <link rel="stylesheet" href="fonts/style.css">
+    <!-- Mis Estilos -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="overflow">
+  <div id="preload" class="container-preload">
+    <div class="lds-roller">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>   
+  </div>
+  <!----------------------------------- NavBar ---------------------------------------> 
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo icon-ActBrand_Logotipo"> </a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="icon-menu"></i></i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html" class="home active-actbrand icon-home_filled"></a></li>
+        <li><a href="forwomen.html" class="nav-width women active">Women</a></li>
+        <li><a href="formen.html" class="nav-width men">Men</a></li>
+        <li><a href="forsenior.html" class="nav-width senior">Seniors</a></li>
+        <li><a href="multivitamin.html" class="nav-width multivitamins">Multivitamin</a></li>
+        <li><a href="b-complex.html" class="nav-width complex">B-Complex</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="index.html" class="home active-actbrand">Home</a></li>
+    <li><a href="forwomen.html" class="women active">Women</a></li>
+    <li><a href="formen.html" class="men">Men</a></li>
+    <li><a href="forsenior.html" class="senior">Seniors</a></li>
+    <li><a href="multivitamin.html" class="multivitamins">Multivitamin</a></li>
+    <li><a href="b-complex.html" class="complex">B-Complex</a></li>
+  </ul>
+
+<!----------------------------------- Header + Slider --------------------------------------->
+<div class="container-slider">
+  <div class="container_inner-slider">
+    <h1 class="icon-ActBrand_Logotipo logo-actbrand"></h1>
+    <p class="text-header">ActBrand® es una línea de Multivitamínicos con completas fórmulas de 
+      vitaminas, minerales e ingredientes naturales, diferenciados según los 
+      requerimientos que cada quien necesita. </p>
+      <a href="#actbrand" class="btn-cta zoom">
+        Descubre el ActBrand <span class="register">® </span>  indicado para ti
+        <i class="icon-arrow_downward"></i>
+      </a>
+  </div>
+  <div class="gradient"></div>
+  <!-- Slider main container -->
+  <div class="swiper-header">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide" style="background-image:url(./img/sli-1.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(./img/sli-2.jpg)"></div>
+    </div>
+  </div>
+</div>
+
+<!----------------------------------- ActBrand --------------------------------------->
+<div class="container_actbrand">
+  <div class="container-cards">
+    <!-- Swiper -->
+    <div class="swiper-container swiper-cards">
+      <div class="swiper-wrapper">
+          <!-- senior card -->
+          <a href="forsenior.html" class="swiper-slide actbrand_card zoom">
+            <img class="responsive-img img-actbrand" src="img/Seniors.png" alt="">
+            <div class="container-inner_card">
+              <div class="container_img senior-img">
+                <h2 class="title_card">For Seniors</h2>
+                <div class="line_card"></div>
+                <div class="actbrand_color-senior"></div>
+              </div>
+              <div class="container_btn">
+                <h3 class="btn-vermas color-senior">Ver mas</h3>
+                <i class="icon-arrow_forward_ios color-senior"></i>
+              </div>
+            </div>
+          </a>
+
+          <!-- men card -->
+          <a href="formen.html" class="swiper-slide actbrand_card zoom">
+            <img class="responsive-img img-actbrand" src="img/men.png" alt="">
+            <div class="container-inner_card">
+              <div class="container_img men-img">
+                <h2 class="title_card">For Men</h2>
+                <div class="line_card"></div>
+                <div class="actbrand_color-men"></div>
+              </div>
+              <div class="container_btn">
+                <h3 class="btn-vermas color-men">Ver mas</h3>
+                <i class="icon-arrow_forward_ios color-men"></i>
+              </div>
+            </div>
+          </a>
+          <!-- women card -->
+          <a href="forwomen.html" class="swiper-slide actbrand_card zoom">
+            <img class="responsive-img img-actbrand" src="img/women.png" alt="">
+            <div class="container-inner_card">
+              <div class="container_img women-img">
+                <h2 class="title_card">For Women</h2>
+                <div class="line_card"></div>
+                <div class="actbrand_color-women"></div>
+              </div>
+              <div class="container_btn">
+                <h3 class="btn-vermas color-women">Ver mas</h3>
+                <i class="icon-arrow_forward_ios color-women"></i>
+              </div>
+            </div>
+          </a>
+          <!-- multi card -->
+          <a href="multivitamin.html" class="swiper-slide actbrand_card zoom">
+            <img class="responsive-img img-actbrand" src="img/multi.png" alt="">
+            <div class="container-inner_card">
+              <div class="container_img multi-img">
+                <h2 class="title_card">Multivitamin</h2>
+                <div class="line_card"></div>
+                <div class="actbrand_color-multi"></div>
+              </div>
+              <div class="container_btn">
+                <h3 class="btn-vermas color-multi">Ver mas</h3>
+                <i class="icon-arrow_forward_ios color-multi"></i>
+              </div>
+            </div>
+          </a>
+          <!-- complex card -->
+          <a href="b-complex.html" class="swiper-slide actbrand_card zoom">
+            <img class="responsive-img img-actbrand" src="img/complex.png" alt="">
+            <div class="container-inner_card">
+              <div class="container_img complex-img">
+                <h2 class="title_card">B-Complex 50</h2>
+                <div class="line_card"></div>
+                <div class="actbrand_color-complex"></div>
+              </div>
+              <div class="container_btn">
+                <h3 class="btn-vermas color-complex">Ver mas</h3>
+                <i class="icon-arrow_forward_ios color-complex"></i>
+              </div>
+            </div>
+          </a>
+
+      </div> <!-- swiper-wrapper -->
+    </div> <!-- swiper-container swiper-cards -->
+  </div> <!-- container-cards -->
+
+  <div class="container-titles">
+    <div class="container-inner_title">
+      <h2 class="title">VITAMINAS, MINERALES Y MÁS</h2>
+      <P class="subtitle">ENERGÍA FÍSICA Y MENTAL PARA LA FAMILIA</P>
+      <div class="container-arrows">
+        <div class="container-inner_arrow">
+          <!-- If we need navigation buttons -->
+          <div class="icon-arrow_back_ios"></div>
+          <div class="icon-arrow_forward_ios"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!----------------------------------- Elige tu actBrand --------------------------------------->
+<div id="actbrand" class="container-eligetu_actbrand scrollspy">
+  <div class="container-inner">
+    <div class="container_info">
+      <h3 class="title">Elige tu actbrand<span class="register">® </span></h3>
+      <div class="line"></div>
+      <p class="text">Selecciona las opciones que se acomodan a tu perfil y descubre el más indicado, según tus necesidades.</p>
+      <div class="container-btn">
+
+        <!-- SEXO -->
+        <div id="sexo" class="">
+          <div class="container-left">
+            <h3 class="title">1- sexo</h3>
+            <div class="btn-choices">
+              <div class="btn-elige btn-mujer">Mujer</div>
+              <div class="btn-elige btn-hombre">Hombre</div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- EDADES -->
+        <div id="edad-hombre" class="myhide">
+          <div class="container-left ">
+            <h3 class="title">2- Rango de Edad</h3>
+            <div class="btn-choices">
+              <div class="btn-elige btn-edad1">15 - 30</div>
+              <div class="btn-elige btn-edad2-h">30 - 60</div>
+              <div class="btn-elige btn-edad3">Más de 60</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="edad-mujer" class="myhide">
+          <div class="container-left ">
+            <h3 class="title">2- Rango de Edad</h3>
+            <div class="btn-choices">
+              <div class="btn-elige btn-edad1">15 - 30</div>
+              <div class="btn-elige btn-edad2-m">30 - 60</div>
+              <div class="btn-elige btn-edad3">Más de 60</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- INTERESES 15 - 30 -->
+        <div id="interes_15-30" class="myhide">
+          <div class="container-left">
+            <h3 class="title">3- ¿Qué te interesa?</h3>
+            <div class="btn-choices">
+              <div class="btn-elige btn-desktop btn1-1530"><span class="separador">+</span> Concentración <span class="deparador2">|</span>  <span class="separador">-</span> Estrés</div>
+              <div class="btn-elige btn-desktop btn2-1530"><span class="separador">+</span> Energía <span class="deparador2">|</span>  <span class="separador">-</span> Estrés <span class="deparador2">|</span> <span class="separador">+</span> Función Cerebral</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- INTERESES 30 - 60 (MUJER) -->
+        <div id="interes_30-60-m" class="myhide">
+          <div class="container-left">
+            <h3 class="title">3- ¿Qué te interesa?</h3>
+            <div class="btn-choices">
+              <div class="btn-elige btn-desktop btn1-3060-m"><span class="separador">+</span> Energía<span class="deparador2">|</span> <span class="separador">+</span> Belleza<span class="deparador2">|</span> <span class="separador">+</span> Antioxidantes</div>
+              <div class="btn-elige btn-desktop btn2-3060"><span class="separador">+</span> Concentración<span class="deparador2">|</span> <span class="separador">-</span> Estrés</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- INTERESES 30 - 60 (HOMBRE) -->
+        <div id="interes_30-60-h" class="myhide">
+          <div class="container-left">
+            <h3 class="title">3- ¿Qué te interesa?</h3>
+            <div class="btn-choices">
+              <div class="btn-elige btn-desktop btn1-3060-h"><span class="separador">+</span> Energía<span class="deparador2">|</span> <span class="separador">+</span> Rendimiento<span class="deparador2">|</span> <span class="separador">+</span> Defensas</div>
+              <div class="btn-elige btn-desktop btn2-3060"><span class="separador">+</span> Concentración<span class="deparador2">|</span> <span class="separador">-</span> Estrés</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- INTERESES MÁS 60 -->
+        <div id="interes_60" class="myhide">
+          <div class="container-left">
+            <h3 class="title">3- ¿Qué te interesa?</h3>
+            <div class="btn-choices">
+              <div class="btn-elige btn-desktop btn1-60"><span class="separador">+</span> Energía<span class="deparador2">|</span> <span class="separador">+</span> Prevención<span class="deparador2">|</span> <span class="separador">+</span> Defensas</div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- RESULTADO  -->
+        <div id="interes_final" class="myhide">
+          <div class="container-left container-resultado">
+            <h3 class="title-resultado">Tu resultado <span class="icon-arrow_forward arrow-btn hide-on-med-and-down"></span> <span class="icon-arrow_downward arrow-btn hide-on-large-only"></span> </h3>
+            <div class="btn-choices">
+              <div class="btn-again">Volver a intentarlo <span class="icon-replay"></span></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- plantilla -->
+    <div id="plantilla" style="width: 100%;" class="">
+      <div class="container_result">
+        <img class="responsive-img img-simulator" src="img/actbrand-elige.png" alt="">
+        <div class="container-simulator_text">
+          <div class="text-simulator1"></div>
+          <div class="text-simulator2"></div>
+          <div class="text-simulator3"></div>
+          <div class="text-simulator4"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- for women -->
+    <div id="forwomen" class="myhide">
+      <div class="container-forwomen woman-background_presentacion">
+        <img class="responsive-img img-ficha" src="img/women.png" alt="">
+        <div class="container-simulator_text">
+          <h3 class="title actbrand-color_text">ActBrand <span class="register">®</span><span class="women-color_text">For Women</span></h3>
+          <p class="text">Multivitamínico desarrollado especialmente según las necesidades de Mujeres sobre 30 años. </p>
+            <!-- presentacion -->
+          <div class="presentacion-uso hide">
+            <div class="presentacion">
+              <h3 class="title women-color_text">Presentación</h3>
+              <p class="women-color_text">60 tabletas</p>
+            </div>
+            <div class="presentacion">
+              <h3 class="title women-color_text">Modo de uso</h3>
+              <p class="women-color_text">1 tableta al día de preferencia con el desayuno</p>
+            </div>
+          </div>
+          <!-- beneficios -->
+          <div class="beneficios ">
+            <h3 class="title">Beneficios</h3>
+            <div class="container-check">
+              <div class="icon-checkmark"></div>
+              <p>Ayuda a combatir el cansancio y el estrés, estimulando la función cerebral</p>
+            </div>
+            <div class="container-check">
+              <div class="icon-checkmark"></div>
+              <p>Protege y resalta la belleza, ayudando a prevenir el envejecimiento prematuro</p>
+            </div>
+            <div class="container-check">
+              <div class="icon-checkmark"></div>
+              <p>Fortalece las defensas, la salud ósea y las vías urinarias</p>
+            </div>
+          </div>
+          <!-- btn ir a la ficha -->
+          <a href="forwomen.html" class="btn-ficha woman-background woman-background-hover"> Ver Más </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- for men -->
+    <div id="formen" class="myhide">
+      <div class="container-forwomen men-background_presentacion">
+        <img class="responsive-img img-ficha" src="img/men.png" alt="">
+        <div class="container-simulator_text">
+          <h3 class="title actbrand-color_text">ActBrand <span class="register">®</span><span class="men-color_text">For Men</span></h3>
+          <p class="text">Multivitamínico desarrollado especialmente según las necesidades de Hombres sobre 30 años. </p>
+            <!-- presentacion -->
+          <div class="presentacion-uso hide">
+            <div class="presentacion">
+              <h3 class="title men-color_text">Presentación</h3>
+              <p>60 tabletas</p>
+            </div>
+            <div class="presentacion">
+              <h3 class="title men-color_text">Modo de uso</h3>
+              <p>1 tableta al día de preferencia con el desayuno</p>
+            </div>
+          </div>
+          <!-- beneficios -->
+          <div class="beneficios">
+            <h3 class="title">Beneficios</h3>
+            <div class="container-check">
+              <div class="icon-checkmark"></div>
+              <p>Ayuda a combatir el cansancio y el estrés, estimulando la función cerebral</p>
+            </div>
+            <div class="container-check">
+              <div class="icon-checkmark"></div>
+              <p>Protege y resalta la belleza, ayudando a prevenir el envejecimiento prematuro</p>
+            </div>
+            <div class="container-check">
+              <div class="icon-checkmark"></div>
+              <p>Fortalece las defensas, la salud ósea y las vías urinarias</p>
+            </div>
+          </div>
+          <!-- btn ir a la ficha -->
+          <a href="formen.html" class="btn-ficha men-background men-background-hover"> Ver Más </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- for Senior -->
+    <div id="forsenior" class="myhide">
+      <div class="container-forwomen senior-background_presentacion">
+        <img class="responsive-img img-ficha" src="img/Seniors.png" alt="Actbrand for Senior">
+        <div class="container-simulator_text">
+          <h3 class="title actbrand-color_text">ActBrand <span class="register">®</span><span class="senior-color_text">For Seniors</span></h3>
+          <p class="text">Multivitamínico desarrollado especialmente según las necesidades de Hombres y Mujeres, sobre 60 años.</p>
+            <!-- presentacion -->
+          <div class="presentacion-uso hide">
+            <div class="presentacion">
+              <h3 class="title senior-color_text">Presentación</h3>
+              <p>60 tabletas</p>
+            </div>
+            <div class="presentacion">
+              <h3 class="title senior-color_text">Modo de uso</h3>
+              <p>2 tabletas al día de preferencia con el desayuno</p>
+            </div>
+          </div>
+          <!-- beneficios -->
+          <div class="beneficios">
+            <h3 class="title">Beneficios</h3>
+            <div class="container-check">
+              <div class="icon-checkmark"></div>
+              <p>Estimula la función cerebral y previene el deterioro cognitivo</p>
+            </div>
+            <div class="container-check">
+              <div class="icon-checkmark"></div>
+              <p>Ofrece un grupo de antioxidantes específicos para proteger la salud de hombres y mujeres</p>
+            </div>
+            <div class="container-check">
+              <div class="icon-checkmark"></div>
+              <p>Fortalece las defensas y la salud ósea</p>
+            </div>
+          </div>
+          <!-- btn ir a la ficha -->
+          <a href="forsenior.html" class="btn-ficha senior-background senior-background-hover"> Ver Más </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- for multi -->
+    <div id="multivitamin" class="myhide">
+      <div class="container-forwomen multi-background_presentacion">
+        <img class="responsive-img img-ficha" src="img/multi.png" alt="">
+        <div class="container-simulator_text">
+          <h3 class="title actbrand-color_text">ActBrand <span class="register">®</span><span class="multi-color_text">Multivitamin</span></h3>
+          <p class="text">Multivitamínico desarrollado especialmente según las necesidades de Hombres y Mujeres, sobre 15 años. </p>
+            <!-- presentacion -->
+          <div class="presentacion-uso hide">
+            <div class="presentacion">
+              <h3 class="title senior-color_text">Presentación</h3>
+              <p>40 tabletas / 100 tabletas</p>
+            </div>
+            <div class="presentacion">
+              <h3 class="title senior-color_text">Modo de uso</h3>
+              <p>1 tableta al día de preferencia con el desayuno</p>
+            </div>
+          </div>
+          <!-- beneficios -->
+          <div class="beneficios">
+            <h3 class="title">Beneficios</h3>
+            <div class="container-check">
+              <div class="icon-checkmark"></div>
+              <p>Ayuda a combatir el cansancio y a mejorar la memoria y la concentración</p>
+            </div>
+            <div class="container-check">
+              <div class="icon-checkmark"></div>
+              <p>Mejora la resistencia frente al estrés diario y entrega energía por periodos de tiempo prolongado</p>
+            </div>
+            <div class="container-check">
+              <div class="icon-checkmark"></div>
+              <p>Fortalece las defensas y la salud ósea</p>
+            </div>
+          </div>
+          <!-- btn ir a la ficha -->
+          <a href="multivitamin.html" class="btn-ficha multi-background multi-background-hover"> Ver Más </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- for B-Complex -->
+    <div id="b-complex" class="myhide">
+      <div class="container-forwomen complex-background_presentacion">
+        <img class="responsive-img img-ficha" src="img/complex.png" alt="">
+        <div class="container-simulator_text">
+          <h3 class="title actbrand-color_text">ActBrand <span class="register">®</span><span class="complex-color_text">B-Complex</span></h3>
+          <p class="text">Completa fórmula de Vitaminas del Complejo B, esenciales para potenciar la función cerebral en Hombres y Mujeres.</p>
+            <!-- presentacion -->
+          <div class="presentacion-uso hide">
+            <div class="presentacion">
+              <h3 class="title senior-color_text">Presentación</h3>
+              <p>60 Cápsulas</p>
+            </div>
+            <div class="presentacion">
+              <h3 class="title senior-color_text">Modo de uso</h3>
+              <p>1 tableta al día junto con un vaso de agua</p>
+            </div>
+          </div>
+          <!-- beneficios -->
+          <div class="beneficios">
+            <h3 class="title">Beneficios</h3>
+            <div class="container-check">
+              <div class="icon-checkmark"></div>
+              <p>Ayuda a mejorar la concentración</p>
+            </div>
+            <div class="container-check">
+              <div class="icon-checkmark"></div>
+              <p>Ayuda a combatir los síntomas del estrés</p>
+            </div>
+            <div class="container-check">
+              <div class="icon-checkmark"></div>
+              <p>Ayuda a disminuir el cansancio mental</p>
+            </div>
+          </div>
+          <!-- btn ir a la ficha -->
+          <a href="b-complex.html" class="btn-ficha complex-background complex-background-hover"> Ver Más </a>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+<!----------------------------------- Footer --------------------------------------->
+
+<section class="footer">
+  <i class="icon-ActBrand_Logotipo"></i>
+</section>
+  
+
+
+
+
+          
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Materialize | Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Swiper Slider -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- mi JS -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>

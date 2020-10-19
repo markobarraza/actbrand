@@ -1,0 +1,95 @@
+.container-slider{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    @media (min-width: 320px) and (max-width: 992px){
+        height: 400px;
+    }
+    .container_inner-slider{
+        width: 90%;
+        position: absolute;
+        z-index: 20;                
+        .logo-actbrand{
+            color: white;
+            font-size: 70px;
+            padding: 0;
+            margin: 0;
+            @media (min-width: 320px) and (max-width: 992px){
+                font-size: 50px;
+            }
+        }
+        .text-header{
+            color: white;
+            font-size: 16px;
+            font-weight: 200;
+            max-width: 500px;
+            padding: 0;
+            letter-spacing: 1px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            @media (min-width: 320px) and (max-width: 992px){
+                font-size: 14px;
+            }
+        }
+        .btn-cta{
+            width: max-content;
+            display: flex;
+            justify-content: center;
+            color: $actbrand;
+            font-size: 18px;
+            background-color: white;
+            padding: 10px 20px;
+            border-radius: 100px;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+            -ms-border-radius: 100px;
+            -o-border-radius: 100px;
+            &:hover{    
+                color: #335486;
+            }
+            @media (min-width: 320px) and (max-width: 992px){
+                font-size: 13px;
+            }
+            .register{
+                font-size: 8px;
+                padding-right: 3px;
+            }
+            .icon-arrow_downward{
+                font-size: 25px;
+                font-weight: 900;
+                padding-left: 10px;
+                @media (min-width: 320px) and (max-width: 992px){
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .gradient{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+        background: rgb(26,59,110);
+        background: -moz-linear-gradient(90deg, rgba(26,59,110,1) 0%, rgba(26,59,110,0.6544817756204044) 47%, rgba(26,59,110,0) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(26,59,110,1) 0%, rgba(26,59,110,0.6544817756204044) 47%, rgba(26,59,110,0) 100%);
+        background: linear-gradient(90deg, rgba(26,59,110,1) 0%, rgba(26,59,110,0.6544817756204044) 47%, rgba(26,59,110,0) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a3b6e",endColorstr="#1a3b6e",GradientType=1); 
+    }
+    .swiper-header{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        .swiper-wrapper{
+            .swiper-slide{
+                background-position: center;
+                background-size: cover;
+                @media (min-width: 320px) and (max-width: 992px){
+                    // background-position: right;
+                }
+            }
+        }
+    }  
+}

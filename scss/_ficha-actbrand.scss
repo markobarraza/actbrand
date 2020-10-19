@@ -1,0 +1,471 @@
+.container-ficha{
+    display: flex;
+    .container-box_actbrand{
+        width: 300px;
+        position: relative;
+        @media (min-width: 320px) and (max-width: 992px){
+            width: 100%;
+            position: fixed;
+            height: 100px;
+            bottom: 0;
+            z-index: 98;
+        }
+        .actbrand-caja{
+            position: fixed;
+            margin: 0 0 0 0;
+            top: 100px;
+            width: 360px;
+            @media (min-width: 320px) and (max-width: 992px){
+                width: 150px;
+                top: -100px;
+                position: relative;
+                margin: 0;
+                
+            }
+        }
+    }
+    .container-content{
+        width: 100%;
+        .container-inner_header{
+            margin-bottom: 100px;
+            .container-header{
+                max-width: 90%;
+                margin: 0 auto;
+                margin-left: 200px;
+                margin-top: 50px;
+                @media (min-width: 320px) and (max-width: 992px){
+                    margin: 30px auto 0 auto;
+                }
+                .container-header_inner{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    @media (min-width: 320px) and (max-width: 992px){
+                        justify-content: center;
+                    }
+                    .container-inner_1{
+                        .title{
+                            color: $actbrand;
+                            font-size: 40px;
+                            margin: 10px 0;
+                            display: flex;
+                            position: relative;
+                            @media (min-width: 601px) and (max-width: 992px){
+                                font-size: 30px;
+                            }
+                            @media (min-width: 320px) and (max-width: 600px){
+                                font-size: 25px;
+                            }
+                            .register{
+                                position: relative;
+                                font-size: 12px;
+                                top: -11px;
+                                margin-right: 3px;
+                            }
+                        }
+                        .text{
+                            max-width: 550px;
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 23px;
+                            margin: 0;
+                            color: #5A5A5A;
+                            padding-bottom: 20px;
+                            border-bottom: solid 1px #D6D6D6;
+                            @media (min-width: 320px) and (max-width: 600px){
+                                font-size: 14px;
+                            }
+                            .text-2{
+                                color: $actbrand-text;
+                                font-weight: 200;
+                                margin-top: 10px;
+                            }
+                            .bold{
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                    .container-inner_2{
+                        margin-left: 30px;
+                        @media (min-width: 320px) and (max-width: 600px){
+                            display: none;
+                        }
+                    }
+                }
+                .container-header_inner2{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin: 30px 0 0 0;
+                    @media (min-width: 601px) and (max-width: 992px){
+                        justify-content: center;
+                    }
+                    @media (min-width: 320px) and (max-width: 600px){
+                        display: block;
+                    }
+                    .beneficios{
+                        .title{
+                            font-size: 20px;
+                            color: #272727;
+                            font-weight: 600;
+                            margin: 0 0 20px 0;
+
+                        }
+                        .container-check{
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                            max-width: 470px;
+                            .icon-checkmark{
+                                font-size: 20px;
+                                color: #4B9D4F;
+                                font-weight: 1000;
+                                margin: 3px 10px 0 0;
+                            }
+                            p{
+                                font-size: 18px;
+                                color: $actbrand-text;
+                                font-weight: 200;
+                                line-height: 23px;
+                                margin: 0 0 20px 0;
+                                @media (min-width: 320px) and (max-width: 600px){
+                                    font-size: 14px;
+                                    line-height: inherit;
+                                }
+                            }
+                        }
+                    } 
+                    .presentacion-uso{
+                        margin-left: 30px;
+                        @media (min-width: 320px) and (max-width: 600px){
+                            margin: 0;
+                        }
+                        .presentacion{
+                            padding: 10px 20px;
+                            width: 250px;
+                            display: block;
+                            margin: 10px 0 0 0;
+                            border-radius: 5px;
+                            -webkit-border-radius: 5px;
+                            -moz-border-radius: 5px;
+                            -ms-border-radius: 5px;
+                            -o-border-radius: 5px;
+                            .title{
+                                font-size: 16px;
+                                font-weight: 500;
+                                margin: 0 0 3px 0;
+                            }
+                            p{
+                                font-size: 14px;
+                                margin: 0;
+                                font-weight: 200;
+                                line-height: 18px;
+                            }
+                        }
+                    }
+                }
+                .container-header_inner3{
+                    margin: 30px 0 0 0;
+                    @media (min-width: 601px) and (max-width: 992px){
+                        text-align: center;
+                    }
+                    .btn_header{
+                        background-color: $actbrand;
+                        padding: 15px 30px;
+                        margin-right: 20px;
+                        font-size: 16px;
+                        color: white;
+                        border-radius: 10px;
+                        -webkit-border-radius: 5px;
+                        -moz-border-radius: 5px;
+                        -ms-border-radius: 5px;
+                        -o-border-radius: 5px;
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+                        @media (min-width: 320px) and (max-width: 600px){
+                            display: flex;
+                            justify-content: space-around;
+                            margin: 10px 0 0 0;
+                            padding: 15px 0;
+                        }
+                        &:hover{
+                            background-color: #163262;
+                            -webkit-box-shadow: 12px 19px 32px -17px rgba(0,0,0,0.75);
+                            -moz-box-shadow: 12px 19px 32px -17px rgba(0,0,0,0.75);
+                            box-shadow: 12px 19px 32px -17px rgba(0,0,0,0.75);
+                        }
+                        .icon-arrow_downward{
+                            font-size: 20px;
+                            font-weight: 700;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        .container-inner_ingredientes{
+            background-color: #F7F7F7;
+            // height: 500px; 
+            padding: 50px 0 50px 0; 
+            .container_ingredientes{
+                max-width: 90%;
+                margin: 0 auto 0 200px;
+                @media (min-width: 320px) and (max-width: 992px){
+                    margin: 0 auto;
+                }
+                .container_ingredientes_inner{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    @media (min-width: 320px) and (max-width: 992px){
+                        justify-content: center;
+                    }
+                    .container_inner1{
+                        @media (min-width: 320px) and (max-width: 992px){
+                            width: 90%;
+                        }
+                        .title{
+                            color: #535353;
+                            font-size: 25px;
+                            margin: 0;
+                            font-weight: 500;
+                        }
+                        .line{
+                            width: 50px;
+                            height: 5px;
+                            margin: 10px 0;
+                        }
+                        .ingredientes_btn{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            width: 270px;
+                            padding-right: 10px;
+                            margin-top: 20px;
+                            border-radius: 10px;
+                            -webkit-border-radius: 10px;
+                            -moz-border-radius: 10px;
+                            -ms-border-radius: 10px;
+                            -o-border-radius: 10px;
+                            @media (min-width: 320px) and (max-width: 992px){
+                                width: 100%;
+                                
+                            }
+                            .numero{
+                                width: 65px;
+                                display: flex;
+                                justify-content: center;
+                                font-size: 40px;
+                                font-weight: 500;
+                                line-height: normal;
+                                padding: 10px;
+                                border-radius: 10px 0 0 10px;
+                                -webkit-border-radius: 10px 0 0 10px;
+                                -moz-border-radius: 10px 0 0 10px;
+                                -ms-border-radius: 10px 0 0 10px;
+                                -o-border-radius: 10px 0 0 10px;
+                            }
+                            .title_inner{
+                                margin: 0;
+                                font-size: 22px;
+                                .ingredientes_text{
+                                    font-size: 18px;
+                                    margin: 0;
+                                }
+                            }
+                            .icon-arrow_forward_ios{
+                                font-size: 30px;    
+                            }
+                        }
+                    }
+                    .container_inner2{
+                        margin: 0 0 0 200px;
+                        position: relative;
+                        @media (min-width: 320px) and (max-width: 992px){
+                            display: none;
+                        }
+                        .frasco-img{
+                            position: absolute;
+                            top: 70px;
+                            left: -95px;
+
+                        }
+                    }
+                }
+            }  
+        }
+        // mas informacion
+        .container-inner_informacion{
+            .container_informacion{
+                padding: 100px 0;
+                max-width: 90%;
+                margin: 0 auto 0 200px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                @media (min-width: 320px) and (max-width: 600px){
+                    margin: 0 auto;
+                    padding: 50px 0 200px 0;
+                }
+                .container_inner1{
+                    .title{
+                        color: #535353;
+                        font-size: 25px;
+                        margin: 0;
+                        font-weight: 500;
+                    }
+                    .line{
+                        width: 50px;
+                        height: 5px;
+                        margin: 10px 0;
+                    } 
+                    .text{
+                        max-width: 470px;
+                        font-size: 20px;
+                        color: $actbrand-text;
+                    }
+                }
+                .container_inner2{
+                    
+                }
+            }
+        }
+    }
+}
+
+// colores Fichas
+
+// WOMEN
+.woman-background{
+    background-color: $actbrand-women
+}
+.woman-background-hover{
+    &:hover{
+        background-color: #71206F    
+    }
+}
+.woman-background_presentacion{    
+    background-color: #F7EDF6;
+    border: 2px solid #EDD3EC;
+}
+.woman-background_ingrediente{    
+    background-color: #EDD3EC !important;
+}
+.woman-background-numero{
+    background-color: #DEBBDD;
+}
+.women-color_text{
+    color: $actbrand-women;
+}
+
+
+// MEN
+.men-background{
+    background-color: $actbrand-men
+}
+.men-background-hover{
+    &:hover{
+        background-color: #0062AF    
+    }
+}
+.men-background_presentacion{    
+    background-color: #EDF5FB;
+    border: 2px solid #CCE3F2;
+}
+.men-background_ingrediente{
+    background-color: #CCE3F2 !important;
+}
+.men-background-numero{
+    background-color: #B2D5EB;
+}
+.men-color_text{
+    color: $actbrand-men;
+}
+
+// SENIOR
+.senior-background{
+    background-color: $actbrand-senior
+}
+.senior-background-hover{
+    &:hover{
+        background-color: #757678    
+    }
+}
+.senior-background_presentacion{    
+    background-color: #F7F7F7;
+    border: 2px solid #E7E7E8;
+}
+.senior-background_ingrediente{
+    background-color: #E7E7E8 !important;
+}
+.senior-background-numero{
+    background-color: #DBDBDC;
+}
+.senior-color_text{
+    color: $actbrand-senior;
+}
+
+// MULTIVITAMINICO  
+.multi-background{
+    background-color: $actbrand-multi
+}
+.multi-background-hover{
+    &:hover{
+        background-color: #E2431B    
+    }
+}
+.multi-background_presentacion{
+    background-color: #FEF3ED;
+    border: 2px solid #FBDDCE;
+}
+.multi-background_ingrediente{
+    background-color: #FBDDCE !important;
+}
+.multi-background-numero{
+    background-color: #F8CBB5;
+}
+.multi-color_text{
+    color: $actbrand-multi;
+}
+
+// COMPLEX  
+.complex-background{
+    background-color: $actbrand-complex
+}
+.complex-background-hover{
+    &:hover{
+        background-color: #1D274D    
+    }
+}
+.complex-background_presentacion{
+    background-color: #EDF8FC;
+    border: 2px solid #CCEAF6;
+}
+.complex-background_ingrediente{
+    background-color: #CCEAF6 !important;
+}
+.complex-background-numero{
+    background-color: #B2DFF1;
+}
+.complex-color_text{
+    color: $actbrand-complex;
+}
+
+
+
+.actbrand-color_text{
+    color: $actbrand;
+}
+.men-color_text{
+    color: $actbrand-men;
+}
+.multi-color_text{
+    color: $actbrand-multi;
+}
+.complex-color_text{
+    color: $actbrand-complex;
+}
+.senior-color_text{
+    color: $actbrand-senior;
+}
