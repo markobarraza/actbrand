@@ -209,28 +209,52 @@ nav .nav-wrapper ul li .active-complex {
 }
 .container-slider .container_inner-slider .logo-actbrand {
   color: white;
-  font-size: 70px;
+  font-size: 58px;
   padding: 0;
   margin: 0;
 }
 @media (min-width: 320px) and (max-width: 992px) {
   .container-slider .container_inner-slider .logo-actbrand {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 .container-slider .container_inner-slider .text-header {
+  color: #3da9d4;
   color: white;
-  font-size: 16px;
-  font-weight: 200;
-  max-width: 500px;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 400;
+  max-width: 600px;
   padding: 0;
   letter-spacing: 1px;
-  margin-top: 5px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.21);
 }
 @media (min-width: 320px) and (max-width: 992px) {
   .container-slider .container_inner-slider .text-header {
-    font-size: 14px;
+    font-size: 40px;
+    line-height: 40px;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.21);
+  }
+}
+.container-slider .container_inner-slider .subtext-header {
+  color: #F4C242;
+  font-size: 23px;
+  font-weight: 400;
+  max-width: 550px;
+  padding: 0;
+  letter-spacing: 1px;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.21);
+}
+@media (min-width: 320px) and (max-width: 992px) {
+  .container-slider .container_inner-slider .subtext-header {
+    font-size: 16px;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.21);
+    letter-spacing: 1px;
+    margin-top: 10px;
   }
 }
 .container-slider .container_inner-slider .btn-cta {
@@ -269,7 +293,7 @@ nav .nav-wrapper ul li .active-complex {
     font-size: 20px;
   }
 }
-.container-slider .gradient {
+.container-slider .gradient-1 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -279,6 +303,17 @@ nav .nav-wrapper ul li .active-complex {
   background: -webkit-linear-gradient(90deg, #1a3b6e 0%, rgba(26, 59, 110, 0.6544817756) 47%, rgba(26, 59, 110, 0) 100%);
   background: linear-gradient(90deg, #1a3b6e 0%, rgba(26, 59, 110, 0.6544817756) 47%, rgba(26, 59, 110, 0) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a3b6e",endColorstr="#1a3b6e",GradientType=1);
+}
+.container-slider .gradient-2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background: #f4c242;
+  background: -moz-linear-gradient(90deg, rgba(244, 194, 66, 0) 0%, rgba(244, 194, 66, 0.5480391986) 49%, #f4c242 100%);
+  background: -webkit-linear-gradient(90deg, rgba(244, 194, 66, 0) 0%, rgba(244, 194, 66, 0.5480391986) 49%, #f4c242 100%);
+  background: linear-gradient(90deg, rgba(244, 194, 66, 0) 0%, rgba(244, 194, 66, 0.5480391986) 49%, #f4c242 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4c242",endColorstr="#f4c242",GradientType=1);
 }
 .container-slider .swiper-header {
   height: 100%;
@@ -523,22 +558,29 @@ nav .nav-wrapper ul li .active-complex {
     text-align: left;
   }
 }
-.container_actbrand .container-titles .container-inner_title h2 {
-  color: #E9540D;
-  font-size: 35px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  margin: 5px 0 0 0;
+.container_actbrand .container-titles .container-inner_title .text-header {
+  color: #1A3B6E;
+  font-size: 17px;
+  font-weight: 400;
+  max-width: 500px;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 @media (min-width: 320px) and (max-width: 992px) {
-  .container_actbrand .container-titles .container-inner_title h2 {
-    font-size: 25px;
+  .container_actbrand .container-titles .container-inner_title .text-header {
+    font-size: 17px;
   }
 }
-.container_actbrand .container-titles .container-inner_title .subtitle {
-  font-size: 16px;
-  color: #1A3B6E;
-  margin: 0;
+.container_actbrand .container-titles .container-inner_title .text-header .actbrand-title {
+  position: relative;
+  padding-right: 10px;
+}
+.container_actbrand .container-titles .container-inner_title .text-header .actbrand-title .register {
+  position: absolute;
+  top: -4px;
+  font-size: 12px;
+  margin-right: 10px;
 }
 .container_actbrand .container-titles .container-inner_title .container-arrows {
   position: relative;

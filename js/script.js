@@ -1,7 +1,7 @@
 // Slider Header
   var swiper = new Swiper('.swiper-header', {
     autoplay: {
-      delay: 5000,
+      delay: 2000,
     },
     spaceBetween: 500,
     effect: 'fade',
